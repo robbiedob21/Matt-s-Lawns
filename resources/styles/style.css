@@ -120,14 +120,16 @@ p {
 }
 
 .hero button {
-    padding: 0.5rem 1.5rem;
+    padding: 0.75rem;
     margin-top: 4rem;
+    margin-inline: auto;
     color: white;
     font-weight: bold;
     border-color: var(--clr-green);
     background-color: var(--clr-lime);
     border-radius: 0.5rem;
     font-size: 1.25rem;
+    width: 50%;
 }
 
 @media screen and (min-width: 600px) {
@@ -153,6 +155,10 @@ span {
 .about h2 {
     font-size: 2rem;
     line-height: 1.2;
+    padding-bottom: 0.5rem;
+}
+
+.about p {
     padding-bottom: 1rem;
 }
 
@@ -252,6 +258,10 @@ span {
 .why-us h2 {
     text-align: center;
     grid-column: 1 / -1;
+}
+
+.why-us h3 {
+    padding-bottom: 0.25rem;
 }
 
 @media screen and (min-width: 768px) {
