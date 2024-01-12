@@ -55,6 +55,7 @@ video {
 }
 
 .wrapper{
+    padding-block: 0.5rem;
     padding-inline: 1.5rem;
     max-width: 75rem;
     margin: auto;
