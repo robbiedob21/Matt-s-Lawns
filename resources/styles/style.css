@@ -55,7 +55,6 @@ video {
 }
 
 .wrapper{
-    padding-block: 2rem;
     padding-inline: 1.5rem;
     max-width: 75rem;
     margin: auto;
@@ -78,6 +77,10 @@ p {
 
 .box-shadow-large {
     box-shadow: 0.5rem 0.5rem 0.5rem hsla(80, 75%, 19%, 0.2);
+}
+
+.box-shadow-small {
+    box-shadow: 0.125rem 0.125rem 0.25rem hsla(80, 75%, 19%, 0.2);
 }
 
 .dark-bg {
